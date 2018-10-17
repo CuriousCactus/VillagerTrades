@@ -1,0 +1,30 @@
+{ 
+	Profession:"minecraft:farmer", 
+	Career:"fisherman",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			
+			{action:"add", buy:{id:"minecraft:red_flower",Damage:1,Count:{min:14,max:18}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:red_flower",Damage:2,Count:{min:14,max:18}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:vine",Count:{min:8,max:12}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:2}},sell:{id:"minecraft:waterlily",Count:1}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"minecraft:cactus",Count:{min:20,max:30}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:brown_mushroom",Count:{min:6,max:10}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:red_mushroom",Count:{min:6,max:10}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:2}},sell:{id:"minecraft:chorus_flower",Count:1}, CareerLevel:3},
+			
+			{action:"add", buy:{id:"minecraft:chorus_fruit",Count:{min:6,max:10}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:nether_wart",Count:{min:6,max:10}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:3}
+		
+		]
+	}
+
+}
+
+ 

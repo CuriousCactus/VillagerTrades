@@ -1,0 +1,33 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"miner",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			
+			{action:"add", 
+			buy:{id:"minecraft:stone",Damage:[1,3,5],Count:{min:50,max:100}}, 
+			sell:{id:"minecraft:emerald",Count:1}, 
+			CareerLevel:1},
+					
+			{action:"add", 
+			buy:{id:["minecraft:iron_ore","minecraft:gold_ore"],Count:[5,5]}, 
+			buyB:{id:"minecraft:emerald",Count:[1,1]},
+			sell:{id:["minecraft:iron_ingot","minecraft:gold_ingot"],Count:[{min:6,max:10},{min:6,max:10}]}, 
+			CareerLevel:2},
+			
+			{action:"add", 
+			buy:[{id:"minecraft:coal_ore",Count:1},{id:"minecraft:quartz_ore",Count:1}], 
+			sell:[{id:"minecraft:coal",Count:{min:2,max:4}},{id:"minecraft:quartz",Count:{min:2,max:4}}], 
+			CareerLevel:3},
+			
+			{action:"add", 
+			buy:[{id:"minecraft:redstone_ore",Count:1}, {id:"minecraft:lapis_ore",Count:1}, {id:"minecraft:diamond_ore",Count:1}], 
+			sell:[{id:"minecraft:redstone",Count:{min:5,max:8}}, {id:"minecraft:dye",Damage:4,Count:{min:8,max:32}}, {id:"minecraft:diamond",Count:{min:2,max:4}}], 
+			CareerLevel:4}
+			
+		]
+	}
+}

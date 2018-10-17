@@ -1,0 +1,25 @@
+{ 
+	Profession: "vtt:tinkerer", 
+	Career:"tinkerer",
+
+	Offers:{
+		Recipes:[
+
+			{action:"add", 
+			buy:[{id:"minecraft:skull",Damage:1,Count:1}, {id:"minecraft:shulker_shell",Count:5}, {id:"minecraft:ghast_tear",Count:3}, {id:"minecraft:magma_cream",Count:10}], 
+			sell:[{id:"minecraft:emerald",Count:64}, {id:"minecraft:emerald",Count:64}, {id:"minecraft:emerald",Count:64}, {id:"minecraft:emerald",Count:64}], 
+			CareerLevel:1},
+			
+			{action:"add", 
+			buy:[{id:"minecraft:skull",Damage:5,Count:1}, {id:"minecraft:sponge",Damage:0,Count:20}, {id:"minecraft:dragon_egg",Count:1}, {id:"minecraft:totem_of_undying",Count:1}], 
+			sell:[{id:"minecraft:emerald_block",Count:32}, {id:"minecraft:emerald_block",Count:32}, {id:"minecraft:emerald_block",Count:64}, {id:"minecraft:emerald_block",Count:32}], 
+			CareerLevel:2},
+			
+			{action:"add", 
+			buy:[{id:"minecraft:emerald_block",Count:32}, {id:"minecraft:emerald_block",Count:32}, {id:"minecraft:emerald_block",Count:16}, {id:"minecraft:emerald_block",Count:8}], 
+			sell:[{id:"minecraft:beacon",Count:1}, {id:"minecraft:elytra",Count:1}, {id:"minecraft:purple_shulker_box",Count:1}, {id:"minecraft:enchanted_book",Count:1,tag:{ench:{id:70}}}], 
+			CareerLevel:3}
+			
+		]
+	}
+}

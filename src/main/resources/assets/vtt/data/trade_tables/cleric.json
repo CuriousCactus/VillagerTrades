@@ -1,0 +1,16 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"cleric",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"remove", buy:{id:"minecraft:gold_ingot"}, sell:{id:"minecraft:emerald"}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"minecraft:bone",Count:{min:20,max:30}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1}
+			
+		]
+	}
+
+}
+

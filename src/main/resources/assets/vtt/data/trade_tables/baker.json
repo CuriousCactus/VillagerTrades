@@ -1,0 +1,23 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"butcher",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+		
+			{action:"add", buy:{id:"minecraft:wheat",Count:{min:14,max:18}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:sugar",Count:{min:18,max:22}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:egg",Count:{min:20,max:24}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:dye",Damage:3,Count:{min:14,max:18}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:3},
+
+			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:bread",Count:{min:2,max:4}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:pumpkin_pie",Count:{min:2,max:3}}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cookie",Count:{min:6,max:10}}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"minecraft:cake",Count:1}, CareerLevel:4}
+			
+		]
+	}
+
+}
